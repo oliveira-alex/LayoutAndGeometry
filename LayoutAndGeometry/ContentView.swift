@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  LayoutAndGeometry
 //
-//  Created by Alex Oliveira on 01/01/22.
+//  Created by Alex Oliveira on 01/01/2022.
 //
 
 import SwiftUI
@@ -10,7 +10,8 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         Text("Hello, world!")
-            .padding()
+            .background(Color.red)
+            .padding(20)
     }
 }
 
