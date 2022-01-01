@@ -9,9 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .background(Color.red)
-            .padding(20)
+        HStack(alignment: .lastTextBaseline) {
+            Text("live")
+                .font(.caption)
+            Text("long")
+            Text("and")
+                .font(.title)
+            Text("prosper")
+                .font(.largeTitle)
+        }
     }
 }
 
